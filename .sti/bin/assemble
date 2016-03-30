@@ -63,6 +63,6 @@ set +e
 set -e
 
 echo "== Assemble ==="
-getent ahosts frontend-xiuwang.router.default.svc.cluster.local || echo "Unknown host"
-curl -s 'frontend-xiuwang.router.default.svc.cluster.local' | fgrep Welcome
+getent ahosts frontend-dyan2.0329-ukp.qe.rhcloud.com || echo "Unknown host"
+curl -s 'frontend-dyan2.0329-ukp.qe.rhcloud.com' | fgrep Welcome
 cat /etc/resolv.conf
