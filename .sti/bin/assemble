@@ -64,5 +64,5 @@ set -e
 
 echo "== Assemble ==="
 getent ahosts frontend-dyan2.0329-ukp.qe.rhcloud.com || echo "Unknown host"
-curl -s 'frontend-dyan2.0329-ukp.qe.rhcloud.com' | fgrep Welcome
+curl -s 'frontend-dyan1.0419-tmi.qe.rhcloud.com' | fgrep Welcome
 cat /etc/resolv.conf
